@@ -29,7 +29,7 @@ class Stack{
         }
     }
     void push(int val){
-        if(isFull){
+        if(isFull()){
             cout<<"Stack Overflow"<<endl;
             
         }else{
@@ -38,7 +38,7 @@ class Stack{
         }
     }
     int pop(){
-        if(isEmpty){
+        if(isEmpty()){
             cout<<"Stack Underflow"<<endl;
             return 0;
         }else{
@@ -65,7 +65,7 @@ class Stack{
     }
     void display(){
         cout<<"All the values in Stack are: "<< endl;
-        for(int i=0;i<5;i++0){
+        for(int i=0;i<5;i++){
             cout<<arr[i]<<endl;
         }
     }
@@ -121,8 +121,25 @@ int main(){
             break;
         case 7:
             cout<<"Change Function Called- "<< endl;
-            cout<<
+            cout<<"Enter position of item you want to change: ";
+            cin>>position;
+            cout<<endl;
+            cout<<"Enter value of item you want to change: ";
+            cin>>value;
+            s1.change(position, value);
+            break;
+        case 8:
+            cout<< "Display Function Called- "<<endl;
+            s1.display();
+            break;
+        case 9:
+            system("cls"); //Clears the screen
+            break;
+        default:
+            cout<<"Enter Proper Option Number "<<endl;
     }
-    }while(option!=0)
+    }while(option!=0);
     return 0;
+
 }
+    
