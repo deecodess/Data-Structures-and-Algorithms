@@ -12,7 +12,7 @@ int main()
             cout <<"  ";
         for(int j=0;j<=i;j++){
             if(j==0||i==0){
-                cute=1;
+                cute=1; 
             }
             else{
                 cute=cute*(i-j+1)/j;
