@@ -1,5 +1,5 @@
 /* PrepBuddy gave you a number X and asks you to reverse that number and print it.*/
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()

@@ -4,7 +4,7 @@
 123    321
 1234  4321
 1234554321*/
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main()
