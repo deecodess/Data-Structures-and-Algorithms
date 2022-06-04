@@ -3,13 +3,10 @@
 using namespace std;
 class Enemy {
     public:
-        virtual void power(){
-            cout<<"I attack!!"<<endl;
-        }
-        /* void power(){
-            cout<<"I attack!!"<<endl;
-        }*/
-}
+        virtual void power()=0;
+//whenever you write pure virtual functions, you need to override it.
+//Class containing a pure virtual function is known as abstract class.
+
 };
 class Thanos:public Enemy{
     public:
