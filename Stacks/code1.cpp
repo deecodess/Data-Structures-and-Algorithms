@@ -1,3 +1,4 @@
+/* Implementation of a stack using a array */
 #include <iostream>
 #include <string.h>
 
