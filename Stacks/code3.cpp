@@ -56,9 +56,13 @@ void print(Node* top){
 int main(){
     Node* top=NULL;
     push(top,1);
+    print(top);
     push(top,2);
+    print(top);
     push(top,3);
+    print(top);
     push(top,4);
+    print(top);
     push(top,5);
     print(top);
     pop(top);

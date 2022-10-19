@@ -1,4 +1,4 @@
-/* Insertion at Tail of a singly Linked List */
+/* Insertion at Head of a singly Linked List */
 #include <iostream>
 using namespace std;
 

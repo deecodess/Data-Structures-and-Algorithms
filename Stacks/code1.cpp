@@ -22,8 +22,8 @@ class Stack{
         } else{
             return false;
         }
-    }bool isFull(){
-        if(top==4){
+    }bool isFull(int topmost){
+        if(top==topmost){
             return true;
         }else{
             return false;
@@ -106,7 +106,7 @@ int main(){
             }
             break;
         case 4:
-            if(s1.isFull()){
+            if(s1.isFull(4)){
                 cout<<"The Stack is Full"<<endl;
             }else{
                 cout<<"The Stack is not Full"<< endl;

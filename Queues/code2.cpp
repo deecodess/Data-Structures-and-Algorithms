@@ -34,7 +34,6 @@ Node *peek(Node* front, Node* rear){
 }
 void enqueue(Node* &rear, Node* &front, int x){
     Node* temp = new Node(x);
-    temp->next=NULL;
     if(isEmpty(front,rear)){
         front=temp;
         rear=temp;
@@ -70,7 +69,7 @@ void print(Node* front, Node* rear){
         cout<<endl;
     }
     else{
-        cout<<"Queue is empty"<<endl;
+        cout<<"Queue Underflow"<<endl;
     }
 }
 

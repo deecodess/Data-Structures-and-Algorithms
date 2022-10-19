@@ -6,7 +6,11 @@ int size(int rear, int front){
     return rear-front+1;
 }
 bool isEmpty(int rear, int front){
-    return front==-1;
+    if(front==-1 || front>rear)
+        return true;
+    else{
+        return false;
+    }
 }
 bool isFull(int rear, int front, int n){
     return rear==n-1;
@@ -59,7 +63,7 @@ void print(int rear, int front, int a[]){
         cout<<endl;
     }
     else{
-        cout<<"Queue is empty"<<endl;
+        cout<<"Queue Underflow"<<endl;
     }
 }
 int main(){
@@ -69,8 +73,7 @@ int main(){
     int a[1000];
     enqueue(rear,front,a,n,7);
     print(rear,front,a);
-    peek(rear,front,a);
-    print(rear,front,a);
+    cout<<peek(rear,front,a)<<endl;
     dequeue(rear,front,a,n);
     print(rear,front,a);
     dequeue(rear,front,a,n);
@@ -81,7 +84,7 @@ int main(){
     print(rear,front,a);
     enqueue(rear,front,a,n,7);
     print(rear,front,a);
-    size(rear,front);
+    cout<< size(rear,front)<<endl;
     
 
 }
