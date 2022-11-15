@@ -21,7 +21,6 @@ int main(){
 
     /* or
     for(int i=1;i<n;i++){
-        //for rounds
         for(int j=0;j<n;j++){
             if(arr[j]>arr[j+1]){
                 swap(arr[j],arr[j+1]);

@@ -57,11 +57,7 @@ void levelOrderTraversal(Node* root){
 //Inorder Traversal  LNR
 void inorder(Node* root){
     // Base Case
-    if(root==NULL)
-        return;
-    inorder(root->left);
-    cout<<root->data<<" ";
-    inorder(root->right);
+     
 }
 // Preorder Traversal NLR
 void preorder(Node* root){
