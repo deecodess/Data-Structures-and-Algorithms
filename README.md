@@ -1,7 +1,14 @@
-# Data-Structures-and-Algorithms
+# Data Structures and Algorithms
 
 Here are few resources you can use to enhance your dsa prep.
 
+## Table of Contents
+- [Video Playlists](#video-playlists)
+- [DSA Sheets](#sheets-for-questions)
+- [Platforms for practice](#platforms-for-practice)
+- [Books](#books)
+- [Competitive Programming](#competitive-programming)
+- [Blog](#blogs)
 ## Video Playlists
 
 | Name | Link | Language | 
